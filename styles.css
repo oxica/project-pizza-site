@@ -14,9 +14,10 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(/images/03.jpg);
+    background: url(./images/07.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 header{
@@ -82,7 +83,7 @@ header .navigation a:hover{
 }
 
 .content .info p{
-    color: rgb(105, 65, 56);
+    color: rgb(134, 131, 131);
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -104,4 +105,27 @@ header .navigation a:hover{
 .content .info-btn:hover{
     background: #fff;
     color: red;
+}
+
+.media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.media-icons a{
+    position: relative;
+    color: red;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+    margin-right: 60px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.5);
 }
